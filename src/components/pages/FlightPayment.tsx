@@ -21,18 +21,7 @@ export const FlightPayment = () => {
       <div className="w-full">
         <FlightPaymentDetails
           data={FlightListsDetails[id || 0]}
-          // data={id}
         />
-
-        {/* {FlightListsDetails.map((lists, index) => {
-          return <FlightPaymentDetails data={lists} key={index} />;
-        })} */}
-
-        {/* {FlightListsDetails.map((list) => {
-          if (FlightPaymentDetails[list.id] !== 0) {
-            return <FlightPaymentDetails data={list} />;
-          }
-        })} */}
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ export const Flights = (props) => {
             </div>
           </div>
 
-          <div className="z-50">
+          <div className="z-50 flex relative left-14 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="15"
