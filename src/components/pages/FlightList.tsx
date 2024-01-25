@@ -1,5 +1,5 @@
 import React from "react";
-import { Airports, FlightListsDetails } from "../services/Data";
+import { FlightListsDetails } from "../services/Data";
 import { Flights } from "../flights/Flights";
 import { useParams } from "react-router-dom";
 import { FlightListDetails } from "../flights/FlightListDetails";
