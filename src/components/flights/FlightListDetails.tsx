@@ -19,7 +19,7 @@ export const FlightListDetails = (props) => {
     <div>
       <div
         // key={index}
-        className="bg-[white] rounded-[10px] border border-[#F0F0F0] shadow-sm px-4 py-5 mb-5"
+        className="bg-[white] text-[#72737F]  rounded-[10px] border border-[#F0F0F0] shadow-sm px-4 py-5 mb-5"
       >
         <div className="flex justify-between">
           <div className="flex gap-2 mt-2">
@@ -44,7 +44,7 @@ export const FlightListDetails = (props) => {
             </div>
           </div>
           <div className="flex flex-col">
-            <p className="text-[#72737F] text-xs ">{Duration}</p>
+            <p className=" text-xs ">{Duration}</p>
             <div className="flex justify-center my-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ export const FlightListDetails = (props) => {
                 />
               </svg>
             </div>
-            <p className="text-[#72737F] text-xs ">
+            <p className=" text-xs ">
               <span className="text-[10px]"> Stop Over:</span> {StopOvers || "Non-stop"}
             </p>
           </div>
@@ -93,7 +93,7 @@ export const FlightListDetails = (props) => {
           </div>
         </div>
         <div className="flex justify-between my-7">
-          <nav className="flex gap-3 text-[#72737F] text-xs">
+          <nav className="flex gap-3 text-xs">
             <li className="">{OperatingAirlineName}</li>
             <li className="flex gap-1">
               <div className="mt-2">
