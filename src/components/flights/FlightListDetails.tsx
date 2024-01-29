@@ -112,7 +112,7 @@ export const FlightListDetails = (props) => {
           </nav>
           <h3 className="text-sm font-medium">N {TotalFare}.00</h3>
         </div>
-        <Link to={`/flights-payment/${id + 1}`}>
+        <Link to={`/flights-payment/${id}`}>
           <button className="bg-[#223E7C] text-white h-[48px] text-xs font-semibold w-full rounded-[5px]">
             Make Payment
           </button>
